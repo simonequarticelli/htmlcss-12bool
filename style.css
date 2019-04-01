@@ -7,6 +7,7 @@
 .container{
   /* max-width: 1170px;
   margin: 0 auto; */
+  border: 1px solid red;
 }
 .container::after{
   display: table;
@@ -20,7 +21,7 @@
 /* BREAKPOINT */
 
 /* SMARTPHONE */
-@media all and (max-width: 768px){
+@media all and (max-width: 767px){
   .col-xs-12{
     font-size: 60px;
   }
@@ -39,7 +40,6 @@
   .container .row img{
     margin: 90px 0px;
   }
-  
 
 
 
@@ -117,6 +117,37 @@
 
 /* TABLET */
 @media all and (min-width: 768px) and (max-width: 992px){
+  .col-md-12{
+    font-size: 30px;
+  }
+  .col-md-12 img{
+    height: 300px;
+  }
+  hr{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 40px 0px;
+    padding: 30px;
+  }
+  .container .row img{
+    margin: 90px 0px;
+  }
+
+
+
+
+
+
+
+
+
+
+
   .col-md-1{
     width: calc(100% / 12);
   }
