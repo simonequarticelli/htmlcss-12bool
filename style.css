@@ -6,6 +6,13 @@
 img{
   height: 200px;
 }
+hr{
+  margin-top:30px;
+}
+h1,
+h3{
+  margin: 30px 10px;
+}
 [background="grey"]{
   background-color: #f9f9f9;
 }
@@ -13,23 +20,20 @@ img{
   text-align: center;
 }
 .row {
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 100px;
 }
 #why .row img {
   background-color:#428bca;
   border-radius:50%;
   padding:30px;
+  margin:30px 0px;
 }
 #why .row > .first,
 #why .row > .second,
 #why .row > .third {
-  margin-top: 80px;
+  margin-top: 40px;
 }
-.col-lg-6{
-  padding: 20px;
-}
+
 /* FRAMEWORK */
 .container{
   max-width: 1170px;
@@ -79,10 +83,6 @@ img{
   img {
     height: 160px;
   }
-
-
-
-
 
   .col-xs-1{
     width: calc(100% / 12);
@@ -157,27 +157,30 @@ img{
 
 /* TABLET */
 @media all and (min-width: 768px) and (max-width: 992px){
-  .col-md-12{
-    font-size: 30px;
+  .col-md-4{
+    float: left;
   }
   hr{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 50px;
+    display: none;
   }
   h1{
     font-size: 50px;
     text-transform: uppercase;
-    margin: 40px 0px;
+    margin: 20px 0px;
     padding: 30px;
   }
   .container .row img{
-    margin: 90px 0px;
+    margin: 30px 0px;
   }
   img{
-    height: 400px;
+    height: 170px;
   }
-
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    margin-top: 30px;
+    padding:0px 30px;
+  }
 
   .col-md-1{
     width: calc(100% / 12);
